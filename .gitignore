@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+expo-env.d.ts
+
+# React Native / Metro
+.metro-cache/
+*.map
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+lerna-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Builds / Bundles
+dist/
+build/
+web-build/
+android/app/build/
+ios/build/
+*.apk
+*.aab
+*.ipa
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+
+# Android
+android/.gradle/
+android/local.properties
+android/captures/
+*.keystore
+*.jks
+
+# Environment files
+.env
+.env.*
+*.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Zip / archives (you have app.zip, App (2).zip)
+*.zip
+*.rar
+*.7z
